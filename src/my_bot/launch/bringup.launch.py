@@ -20,6 +20,12 @@ def generate_launch_description():
     xacro_file = os.path.join(pkg_path, 'description', 'robot.urdf.xacro')
     robot_description = xacro.process_file(xacro_file).toxml()
 
+    static_laser_tf = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        arguments=['0.0', '0.0', '0.15', '0', '0', '0', 'base_link', 'laser']
+)
+
     # Robot State Publisher
     rsp_node = Node(
         package='robot_state_publisher',
@@ -172,6 +178,7 @@ def generate_launch_description():
             default_value='false',
             description='Use simulation time'
         ),
+        static_laser_tf,
         rsp_node,
         odom_node,
         arduino_node,

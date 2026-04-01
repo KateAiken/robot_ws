@@ -42,8 +42,8 @@ class OdomNode(Node):
         self.prev_left = 0
         self.prev_right = 0
 
-        self.wheel_base = 0.3
-        self.meters_per_tick = 0.001
+        self.wheel_base = 0.8
+        self.meters_per_tick = 0.000982
 
         self.x = 0.0
         self.y = 0.0
