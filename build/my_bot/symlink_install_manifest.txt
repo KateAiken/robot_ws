@@ -3,6 +3,7 @@
 /home/kate/robot_ws/install/my_bot/lib/my_bot/imu_parser.py
 /home/kate/robot_ws/install/my_bot/lib/my_bot/env_parser.py
 /home/kate/robot_ws/install/my_bot/lib/my_bot/drive_bridge.py
+/home/kate/robot_ws/install/my_bot/lib/my_bot/static_tf_publisher.py
 /home/kate/robot_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
 /home/kate/robot_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
 /home/kate/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh

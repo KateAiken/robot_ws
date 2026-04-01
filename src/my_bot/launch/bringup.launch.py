@@ -20,20 +20,40 @@ def generate_launch_description():
     xacro_file = os.path.join(pkg_path, 'description', 'robot.urdf.xacro')
     robot_description = xacro.process_file(xacro_file).toxml()
 
-    static_laser_tf = Node(
-        package='tf2_ros',
-        executable='static_transform_publisher',
-        arguments=['0.0', '0.0', '0.15', '0', '0', '0', 'base_link', 'laser']
-)
+#     static_laser_tf = Node(
+#         package='tf2_ros',
+#         executable='static_transform_publisher',
+#         arguments=['0.0', '0.0', '0.15', '0', '0', '0', 'base_link', 'laser']
+# )
 
     # Robot State Publisher
-    rsp_node = Node(
-        package='robot_state_publisher',
-        executable='robot_state_publisher',
-        parameters=[{
-            'robot_description': robot_description,
-            'use_sim_time': use_sim_time
-        }],
+    # rsp_node = Node(
+    #     package='robot_state_publisher',
+    #     executable='robot_state_publisher',
+    #     parameters=[{
+    #         'robot_description': robot_description,
+    #         'use_sim_time': use_sim_time
+    #     }],
+    #     output='screen'
+    # )
+    # static_tf_base_chassis = Node(
+    #     package='tf2_ros',
+    #     executable='static_transform_publisher',
+    #     name='static_tf_base_chassis',
+    #     arguments=['0.13', '0', '0', '0', '0', '0', 'base_link', 'chassis']
+    # )
+
+    # static_tf_chassis_laser = Node(
+    #     package='tf2_ros',
+    #     executable='static_transform_publisher',
+    #     name='static_tf_chassis_laser',
+    #     arguments=['0.05', '0.05', '0.07', '0', '0', '0', 'chassis', 'laser']
+    # )
+
+    static_tf_node = Node(
+        package='my_bot',
+        executable='static_tf_publisher.py',
+        name='static_tf_publisher',
         output='screen'
     )
 
@@ -116,7 +136,7 @@ def generate_launch_description():
         }]
     )
     lidar_node = TimerAction(
-    period=4.0,  # wait 4 seconds for USB to initialize
+    period= 8.0,  # wait 4 seconds for USB to initialize
     actions=[
         Node(
             package='rplidar_ros',
@@ -178,8 +198,11 @@ def generate_launch_description():
             default_value='false',
             description='Use simulation time'
         ),
-        static_laser_tf,
-        rsp_node,
+        #static_laser_tf,
+        #rsp_node,
+        #static_tf_base_chassis,
+        #static_tf_chassis_laser,
+        static_tf_node,
         odom_node,
         arduino_node,
         imu_node,

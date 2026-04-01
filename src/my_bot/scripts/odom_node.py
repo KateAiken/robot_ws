@@ -49,7 +49,7 @@ class OdomNode(Node):
         self.y = 0.0
         self.yaw = 0.0
 
-        self.odom_pub = self.create_publisher(Odometry, '/odom', 10)
+        self.odom_pub = self.create_publisher(Odometry, '/wheel/odom', 10)
         self.tf_broadcaster = tf2_ros.TransformBroadcaster(self)
 
 

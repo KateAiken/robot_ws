@@ -44,6 +44,7 @@ install(PROGRAMS
     scripts/imu_parser.py
     scripts/env_parser.py
     scripts/drive_bridge.py
+    scripts/static_tf_publisher.py
     DESTINATION lib/${PROJECT_NAME}
     )
 

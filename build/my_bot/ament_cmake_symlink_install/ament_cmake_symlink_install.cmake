@@ -315,8 +315,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(PROGRAMS "scripts/odom_node.py" "scripts/arduino_serial.py" "scripts/imu_parser.py" "scripts/env_parser.py" "scripts/drive_bridge.py" "DESTINATION" "lib/my_bot")
-ament_cmake_symlink_install_programs("/home/kate/robot_ws/src/my_bot" PROGRAMS "scripts/odom_node.py" "scripts/arduino_serial.py" "scripts/imu_parser.py" "scripts/env_parser.py" "scripts/drive_bridge.py" "DESTINATION" "lib/my_bot")
+# install(PROGRAMS "scripts/odom_node.py" "scripts/arduino_serial.py" "scripts/imu_parser.py" "scripts/env_parser.py" "scripts/drive_bridge.py" "scripts/static_tf_publisher.py" "DESTINATION" "lib/my_bot")
+ament_cmake_symlink_install_programs("/home/kate/robot_ws/src/my_bot" PROGRAMS "scripts/odom_node.py" "scripts/arduino_serial.py" "scripts/imu_parser.py" "scripts/env_parser.py" "scripts/drive_bridge.py" "scripts/static_tf_publisher.py" "DESTINATION" "lib/my_bot")
 
 # install(FILES "/home/kate/robot_ws/build/my_bot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_bot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/kate/robot_ws/src/my_bot" FILES "/home/kate/robot_ws/build/my_bot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_bot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
