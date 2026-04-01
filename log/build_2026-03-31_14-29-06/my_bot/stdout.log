@@ -1,0 +1,13 @@
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/config/ekf.yaml
+-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/config/nav2/nav2_params.yaml
+-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/config/slam_params.yaml
+-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/lidar.xacro
+-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/launch/bringup.launch.py
+-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/launch/rsp.launch.py

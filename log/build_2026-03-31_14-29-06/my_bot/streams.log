@@ -1,0 +1,25 @@
+[0.121s] Invoking command in '/home/kate/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --build /home/kate/robot_ws/build/my_bot -- -j4 -l4
+[0.399s] Invoked command in '/home/kate/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --build /home/kate/robot_ws/build/my_bot -- -j4 -l4
+[0.452s] Invoking command in '/home/kate/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --install /home/kate/robot_ws/build/my_bot
+[0.496s] -- Install configuration: "Release"
+[0.512s] -- Execute custom install script
+[0.521s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/config/ekf.yaml
+[0.524s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/config/nav2/nav2_params.yaml
+[0.526s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/config/slam_params.yaml
+[0.527s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[0.528s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.533s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[0.535s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.539s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.542s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/launch/bringup.launch.py
+[0.543s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[0.552s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.569s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:105 (message):
+[0.570s]   ament_cmake_symlink_install_directory() can't find
+[0.570s]   '/home/kate/robot_ws/src/my_bot/worlds'
+[0.571s] Call Stack (most recent call first):
+[0.571s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:319 (ament_cmake_symlink_install_directory)
+[0.575s]   cmake_install.cmake:46 (include)
+[0.576s] 
+[0.578s] [0m
+[0.580s] Invoked command in '/home/kate/robot_ws/build/my_bot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --install /home/kate/robot_ws/build/my_bot

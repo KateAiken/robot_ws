@@ -1,0 +1,49 @@
+[0.085s] Invoking command in '/home/kate/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --build /home/kate/robot_ws/build/my_bot -- -j4 -l4
+[0.278s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.037s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.118s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.446s] -- Configuring done
+[1.478s] -- Generating done
+[1.491s] -- Build files have been written to: /home/kate/robot_ws/build/my_bot
+[1.567s] Invoked command in '/home/kate/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --build /home/kate/robot_ws/build/my_bot -- -j4 -l4
+[1.578s] Invoking command in '/home/kate/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --install /home/kate/robot_ws/build/my_bot
+[1.604s] -- Install configuration: "Release"
+[1.605s] -- Execute custom install script
+[1.608s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/config/empty.yaml
+[1.609s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/config/slam_params.yaml
+[1.610s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+[1.611s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[1.612s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[1.613s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[1.613s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.614s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[1.616s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/test.urdf
+[1.617s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/launch/bringup.launch.py
+[1.618s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[1.618s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.620s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/worlds/description/gazebo_control.xacro
+[1.621s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/worlds/description/inertial_macros.xacro
+[1.622s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/worlds/description/inertial_macros.xacro:Zone.Identifier
+[1.622s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/worlds/description/lidar.xacro
+[1.623s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/worlds/description/robot.urdf.xacro
+[1.624s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/worlds/description/robot.urdf.xacro:Zone.Identifier
+[1.625s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/worlds/description/robot_core.xacro
+[1.625s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/worlds/empty.world
+[1.626s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/lib/my_bot/odom_node.py
+[1.627s] -- Symlinking: /home/kate/robot_ws/install/my_bot/lib/my_bot/arduino_serial.py
+[1.660s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.661s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.662s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.663s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.664s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/environment/path.sh
+[1.665s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/environment/path.dsv
+[1.665s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/local_setup.bash
+[1.667s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/local_setup.sh
+[1.668s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/local_setup.zsh
+[1.669s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/local_setup.dsv
+[1.669s] -- Symlinking: /home/kate/robot_ws/install/my_bot/share/my_bot/package.dsv
+[1.704s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.705s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.705s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.706s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/package.xml
+[1.715s] Invoked command in '/home/kate/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --install /home/kate/robot_ws/build/my_bot

@@ -1,0 +1,205 @@
+[0.915s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.915s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffaa5ce2c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffaa7872b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffaa7872b0>>, mixin_verb=('build',))
+[2.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.718s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.722s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.722s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kate/robot_ws'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.805s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.807s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.812s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.813s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.814s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.815s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.817s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.818s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.821s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.822s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.823s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.824s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.827s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.833s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.834s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.834s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.835s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.837s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.838s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.840s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ignore', 'ignore_ament_install']
+[2.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore'
+[2.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore_ament_install'
+[2.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_pkg']
+[2.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_pkg'
+[2.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_meta']
+[2.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_meta'
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ros']
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ros'
+[2.866s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_bot' with type 'ros.ament_cmake' and name 'my_bot'
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[2.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[2.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[2.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[2.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[2.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[2.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[2.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[2.878s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[2.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.069s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.070s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.088s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/kate/ros_workspaces/ros2_ws/install
+[3.103s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 330 installed packages in /opt/ros/humble
+[3.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.470s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
+[3.471s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
+[3.471s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.471s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[3.471s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
+[3.471s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
+[3.472s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
+[3.472s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[3.472s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.472s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kate/robot_ws/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kate/robot_ws/install/my_bot', 'merge_install': False, 'path': '/home/kate/robot_ws/src/my_bot', 'symlink_install': True, 'test_result_base': None}
+[3.474s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[3.474s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[3.475s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.475s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[3.475s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[3.475s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[3.475s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[3.475s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[3.476s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.476s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kate/robot_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kate/robot_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/kate/robot_ws/src/rplidar_ros', 'symlink_install': True, 'test_result_base': None}
+[3.477s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.485s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kate/robot_ws/src/my_bot' with build type 'ament_cmake'
+[3.487s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kate/robot_ws/src/my_bot'
+[3.508s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.510s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.556s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kate/robot_ws/src/rplidar_ros' with build type 'ament_cmake'
+[3.557s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kate/robot_ws/src/rplidar_ros'
+[3.559s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.559s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kate/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --build /home/kate/robot_ws/build/my_bot -- -j4 -l4
+[3.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kate/robot_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --build /home/kate/robot_ws/build/rplidar_ros -- -j4 -l4
+[3.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kate/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --build /home/kate/robot_ws/build/my_bot -- -j4 -l4
+[3.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kate/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --install /home/kate/robot_ws/build/my_bot
+[4.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[4.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kate/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --install /home/kate/robot_ws/build/my_bot
+[4.159s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/my_bot' for CMake module files
+[4.171s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/my_bot' for CMake config files
+[4.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[4.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kate/robot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[4.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kate/robot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[4.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kate/robot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[4.198s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/my_bot/lib'
+[4.202s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/my_bot/bin'
+[4.203s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[4.205s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/my_bot/lib/python3.10/site-packages'
+[4.208s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/my_bot/bin'
+[4.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/kate/robot_ws/install/my_bot/share/my_bot/package.ps1'
+[4.221s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kate/robot_ws/install/my_bot/share/my_bot/package.dsv'
+[4.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/kate/robot_ws/install/my_bot/share/my_bot/package.sh'
+[4.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/kate/robot_ws/install/my_bot/share/my_bot/package.bash'
+[4.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/kate/robot_ws/install/my_bot/share/my_bot/package.zsh'
+[4.251s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kate/robot_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[4.257s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[4.259s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/my_bot' for CMake module files
+[4.263s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/my_bot' for CMake config files
+[4.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[4.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kate/robot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[4.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kate/robot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[4.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kate/robot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[4.283s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/my_bot/lib'
+[4.284s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/my_bot/bin'
+[4.286s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[4.289s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/my_bot/lib/python3.10/site-packages'
+[4.293s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/my_bot/bin'
+[4.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/kate/robot_ws/install/my_bot/share/my_bot/package.ps1'
+[4.306s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kate/robot_ws/install/my_bot/share/my_bot/package.dsv'
+[4.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/kate/robot_ws/install/my_bot/share/my_bot/package.sh'
+[4.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/kate/robot_ws/install/my_bot/share/my_bot/package.bash'
+[4.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/kate/robot_ws/install/my_bot/share/my_bot/package.zsh'
+[4.327s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kate/robot_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[4.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kate/robot_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --build /home/kate/robot_ws/build/rplidar_ros -- -j4 -l4
+[4.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kate/robot_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --install /home/kate/robot_ws/build/rplidar_ros
+[4.735s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[4.736s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/rplidar_ros' for CMake module files
+[4.740s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/rplidar_ros' for CMake config files
+[4.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[4.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kate/robot_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[4.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kate/robot_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --install /home/kate/robot_ws/build/rplidar_ros
+[4.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kate/robot_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[4.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kate/robot_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[4.760s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/rplidar_ros/lib'
+[4.761s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/rplidar_ros/bin'
+[4.761s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[4.762s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[4.764s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/rplidar_ros/bin'
+[4.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/kate/robot_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[4.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kate/robot_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[4.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/kate/robot_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[4.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/kate/robot_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[4.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/kate/robot_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[4.785s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kate/robot_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[4.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[4.794s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/rplidar_ros' for CMake module files
+[4.802s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/rplidar_ros' for CMake config files
+[4.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[4.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kate/robot_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[4.809s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kate/robot_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[4.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kate/robot_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[4.830s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/rplidar_ros/lib'
+[4.831s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/rplidar_ros/bin'
+[4.831s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[4.832s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[4.836s] Level 1:colcon.colcon_core.environment:checking '/home/kate/robot_ws/install/rplidar_ros/bin'
+[4.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/kate/robot_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[4.843s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kate/robot_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[4.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/kate/robot_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[4.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/kate/robot_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[4.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/kate/robot_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[4.858s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kate/robot_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[4.864s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.867s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.867s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.906s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.906s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.906s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.949s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.951s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kate/robot_ws/install/local_setup.ps1'
+[4.957s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kate/robot_ws/install/_local_setup_util_ps1.py'
+[4.968s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kate/robot_ws/install/setup.ps1'
+[4.977s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kate/robot_ws/install/local_setup.sh'
+[4.985s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kate/robot_ws/install/_local_setup_util_sh.py'
+[4.992s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kate/robot_ws/install/setup.sh'
+[5.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kate/robot_ws/install/local_setup.bash'
+[5.004s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kate/robot_ws/install/setup.bash'
+[5.012s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kate/robot_ws/install/local_setup.zsh'
+[5.015s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kate/robot_ws/install/setup.zsh'

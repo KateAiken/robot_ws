@@ -1,0 +1,9 @@
+/home/kate/robot_ws/build/my_bot/CMakeFiles/uninstall.dir
+/home/kate/robot_ws/build/my_bot/CMakeFiles/my_bot_uninstall.dir
+/home/kate/robot_ws/build/my_bot/CMakeFiles/test.dir
+/home/kate/robot_ws/build/my_bot/CMakeFiles/edit_cache.dir
+/home/kate/robot_ws/build/my_bot/CMakeFiles/rebuild_cache.dir
+/home/kate/robot_ws/build/my_bot/CMakeFiles/list_install_components.dir
+/home/kate/robot_ws/build/my_bot/CMakeFiles/install.dir
+/home/kate/robot_ws/build/my_bot/CMakeFiles/install/local.dir
+/home/kate/robot_ws/build/my_bot/CMakeFiles/install/strip.dir

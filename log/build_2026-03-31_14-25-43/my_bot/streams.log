@@ -1,0 +1,28 @@
+[0.092s] Invoking command in '/home/kate/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --build /home/kate/robot_ws/build/my_bot -- -j4 -l4
+[0.294s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.376s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.470s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.406s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.463s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.474s] -- Added test 'lint_cmake' to check CMake code style
+[2.490s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.515s] -- Added test 'xmllint' to check XML markup files
+[2.541s] -- Configuring done
+[2.594s] -- Generating done
+[2.628s] -- Build files have been written to: /home/kate/robot_ws/build/my_bot
+[2.762s] Invoked command in '/home/kate/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --build /home/kate/robot_ws/build/my_bot -- -j4 -l4
+[2.784s] Invoking command in '/home/kate/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --install /home/kate/robot_ws/build/my_bot
+[2.812s] -- Install configuration: "Release"
+[2.814s] -- Execute custom install script
+[2.817s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/config/ekf.yaml
+[2.818s] -- Symlinking: /home/kate/robot_ws/install/my_bot/share/my_bot/config/nav2/nav2_params.yaml
+[2.876s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/config/slam_params.yaml
+[2.877s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:105 (message):
+[2.878s]   ament_cmake_symlink_install_directory() can't find
+[2.879s]   '/home/kate/robot_ws/src/my_bot/description'
+[2.884s] Call Stack (most recent call first):
+[2.886s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:319 (ament_cmake_symlink_install_directory)
+[2.892s]   cmake_install.cmake:46 (include)
+[2.895s] 
+[2.901s] [0m
+[2.902s] Invoked command in '/home/kate/robot_ws/build/my_bot' returned '1': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --install /home/kate/robot_ws/build/my_bot
