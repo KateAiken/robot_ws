@@ -1,0 +1,27 @@
+[0.172s] Invoking command in '/home/kate/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --build /home/kate/robot_ws/build/my_bot -- -j4 -l4
+[0.574s] Invoked command in '/home/kate/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --build /home/kate/robot_ws/build/my_bot -- -j4 -l4
+[0.710s] Invoking command in '/home/kate/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --install /home/kate/robot_ws/build/my_bot
+[0.778s] -- Install configuration: "Release"
+[0.784s] -- Execute custom install script
+[0.786s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/lib/my_bot/odom_node.py
+[0.788s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/lib/my_bot/arduino_serial.py
+[0.790s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/lib/my_bot/imu_parser.py
+[0.792s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/lib/my_bot/env_parser.py
+[0.794s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/lib/my_bot/drive_bridge.py
+[0.794s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/lib/my_bot/static_tf_publisher.py
+[0.798s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.798s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.800s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.803s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.803s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.803s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.804s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.804s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.805s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.805s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.806s] -- Symlinking: /home/kate/robot_ws/install/my_bot/share/my_bot/package.dsv
+[0.856s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.859s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.859s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.860s] -- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/package.xml
+[0.875s] Invoked command in '/home/kate/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble /usr/bin/cmake --install /home/kate/robot_ws/build/my_bot
