@@ -1,3 +1,19 @@
+/home/kate/robot_ws/install/my_bot/share/my_bot/config/ekf.yaml
+/home/kate/robot_ws/install/my_bot/share/my_bot/config/nav2/map.pgm
+/home/kate/robot_ws/install/my_bot/share/my_bot/config/nav2/map.yaml
+/home/kate/robot_ws/install/my_bot/share/my_bot/config/nav2/nav2_params.yaml
+/home/kate/robot_ws/install/my_bot/share/my_bot/config/slam_params.txt
+/home/kate/robot_ws/install/my_bot/share/my_bot/config/slam_params.yaml
+/home/kate/robot_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+/home/kate/robot_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+/home/kate/robot_ws/install/my_bot/share/my_bot/description/lidar.xacro
+/home/kate/robot_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+/home/kate/robot_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+/home/kate/robot_ws/install/my_bot/share/my_bot/launch/bringup.launch.py
+/home/kate/robot_ws/install/my_bot/share/my_bot/launch/bringup.launch.txt
+/home/kate/robot_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+/home/kate/robot_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+/home/kate/robot_ws/install/my_bot/lib/my_bot/zero_odom.py
 /home/kate/robot_ws/install/my_bot/lib/my_bot/odom_node.py
 /home/kate/robot_ws/install/my_bot/lib/my_bot/arduino_serial.py
 /home/kate/robot_ws/install/my_bot/lib/my_bot/imu_parser.py
@@ -6,6 +22,7 @@
 /home/kate/robot_ws/install/my_bot/lib/my_bot/static_tf_publisher.py
 /home/kate/robot_ws/install/my_bot/lib/my_bot/dual_encoder_node.py
 /home/kate/robot_ws/install/my_bot/lib/my_bot/wheel_odom.py
+/home/kate/robot_ws/install/my_bot/lib/my_bot/arduino_parser.py
 /home/kate/robot_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
 /home/kate/robot_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
 /home/kate/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh

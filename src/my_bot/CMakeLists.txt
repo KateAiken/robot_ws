@@ -33,12 +33,13 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-# install(
-#   DIRECTORY config description launch worlds
-#   DESTINATION share/${PROJECT_NAME}
-# )
+install(
+  DIRECTORY config description launch
+  DESTINATION share/${PROJECT_NAME}
+)
 
 install(PROGRAMS
+    scripts/zero_odom.py
     scripts/odom_node.py
     scripts/arduino_serial.py
     scripts/imu_parser.py
@@ -47,6 +48,7 @@ install(PROGRAMS
     scripts/static_tf_publisher.py
     scripts/dual_encoder_node.py
     scripts/wheel_odom.py
+    scripts/arduino_parser.py
     DESTINATION lib/${PROJECT_NAME}
     )
 

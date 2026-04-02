@@ -1,0 +1,376 @@
+[0.000000] (-) TimerEvent: {}
+[0.001488] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.002025] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.023367] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.075601] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.098314] (-) TimerEvent: {}
+[0.127433] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.132643] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/kate/robot_ws/src/my_bot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/kate/robot_ws/install/my_bot'], 'cwd': '/home/kate/robot_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kate'), ('SSH_CLIENT', '100.75.164.56 64194 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kate'), ('OLDPWD', '/home/kate/robot_ws'), ('TERM_PROGRAM_VERSION', '1.113.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-72428cc8-a6de-4191-978f-cbca0a454da1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/kate/robot_ws/install:/home/kate/ros_workspaces/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kate'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/bin:/usr/local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ba8108ba71.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/kate/robot_ws/install/rplidar_ros:/home/kate/robot_ws/install/my_bot:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kate/robot_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.75.164.56 64194 100.108.229.124 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kate/ros_workspaces/ros2_ws/build/arduino_serial_node:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kate/robot_ws/install/rplidar_ros:/home/kate/robot_ws/install/my_bot:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble')]), 'shell': False}
+[0.170816] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.172987] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/kate/robot_ws/src/rplidar_ros', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/kate/robot_ws/install/rplidar_ros'], 'cwd': '/home/kate/robot_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kate'), ('SSH_CLIENT', '100.75.164.56 64194 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kate'), ('OLDPWD', '/home/kate/robot_ws'), ('TERM_PROGRAM_VERSION', '1.113.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-72428cc8-a6de-4191-978f-cbca0a454da1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/kate/robot_ws/install:/home/kate/ros_workspaces/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kate'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/bin:/usr/local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ba8108ba71.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/kate/robot_ws/install/rplidar_ros:/home/kate/robot_ws/install/my_bot:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kate/robot_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.75.164.56 64194 100.108.229.124 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kate/ros_workspaces/ros2_ws/build/arduino_serial_node:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kate/robot_ws/install/rplidar_ros:/home/kate/robot_ws/install/my_bot:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble')]), 'shell': False}
+[0.201996] (-) TimerEvent: {}
+[0.303154] (-) TimerEvent: {}
+[0.404553] (-) TimerEvent: {}
+[0.507544] (-) TimerEvent: {}
+[0.567087] (my_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.607941] (-) TimerEvent: {}
+[0.689329] (rplidar_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.708278] (-) TimerEvent: {}
+[0.810664] (-) TimerEvent: {}
+[0.912665] (-) TimerEvent: {}
+[1.006220] (my_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.013034] (-) TimerEvent: {}
+[1.060719] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.076839] (rplidar_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.113254] (-) TimerEvent: {}
+[1.118600] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.213466] (-) TimerEvent: {}
+[1.315594] (-) TimerEvent: {}
+[1.418037] (-) TimerEvent: {}
+[1.521246] (-) TimerEvent: {}
+[1.595276] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.621541] (-) TimerEvent: {}
+[1.638793] (my_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.641030] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.645304] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.667466] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.718285] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.721975] (-) TimerEvent: {}
+[1.754337] (rplidar_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.757901] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.762598] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.783969] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.822205] (-) TimerEvent: {}
+[1.924609] (-) TimerEvent: {}
+[2.026073] (-) TimerEvent: {}
+[2.128914] (-) TimerEvent: {}
+[2.222559] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.229124] (-) TimerEvent: {}
+[2.274022] (my_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.278197] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.283081] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.329375] (-) TimerEvent: {}
+[2.337318] (my_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.400117] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.429749] (-) TimerEvent: {}
+[2.438172] (rplidar_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.442076] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.446636] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.496993] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.530030] (-) TimerEvent: {}
+[2.632512] (-) TimerEvent: {}
+[2.735790] (-) TimerEvent: {}
+[2.838853] (-) TimerEvent: {}
+[2.943575] (-) TimerEvent: {}
+[3.046252] (-) TimerEvent: {}
+[3.150618] (-) TimerEvent: {}
+[3.253174] (-) TimerEvent: {}
+[3.354708] (-) TimerEvent: {}
+[3.457115] (-) TimerEvent: {}
+[3.560081] (-) TimerEvent: {}
+[3.665288] (-) TimerEvent: {}
+[3.666821] (my_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.765520] (-) TimerEvent: {}
+[3.866547] (-) TimerEvent: {}
+[3.968349] (-) TimerEvent: {}
+[3.978903] (rplidar_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.068690] (-) TimerEvent: {}
+[4.170760] (-) TimerEvent: {}
+[4.235619] (my_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.270982] (-) TimerEvent: {}
+[4.372465] (-) TimerEvent: {}
+[4.474413] (-) TimerEvent: {}
+[4.560196] (rplidar_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.574626] (-) TimerEvent: {}
+[4.675563] (-) TimerEvent: {}
+[4.776522] (-) TimerEvent: {}
+[4.786415] (my_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.876752] (-) TimerEvent: {}
+[4.977784] (-) TimerEvent: {}
+[5.080720] (-) TimerEvent: {}
+[5.184186] (-) TimerEvent: {}
+[5.240144] (rplidar_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.284466] (-) TimerEvent: {}
+[5.385437] (-) TimerEvent: {}
+[5.486575] (-) TimerEvent: {}
+[5.587415] (-) TimerEvent: {}
+[5.605384] (my_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.654189] (my_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.661518] (my_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.666203] (my_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.687630] (-) TimerEvent: {}
+[5.691389] (my_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.701353] (my_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.729585] (my_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[5.742439] (my_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/kate/robot_ws/build/my_bot\n'}
+[5.770625] (my_bot) CommandEnded: {'returncode': 0}
+[5.772510] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[5.772745] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kate/robot_ws/build/my_bot', '--', '-j4', '-l4'], 'cwd': '/home/kate/robot_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kate'), ('SSH_CLIENT', '100.75.164.56 64194 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kate'), ('OLDPWD', '/home/kate/robot_ws'), ('TERM_PROGRAM_VERSION', '1.113.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-72428cc8-a6de-4191-978f-cbca0a454da1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/kate/robot_ws/install:/home/kate/ros_workspaces/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kate'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/bin:/usr/local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ba8108ba71.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/kate/robot_ws/install/rplidar_ros:/home/kate/robot_ws/install/my_bot:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kate/robot_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.75.164.56 64194 100.108.229.124 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kate/ros_workspaces/ros2_ws/build/arduino_serial_node:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kate/robot_ws/install/rplidar_ros:/home/kate/robot_ws/install/my_bot:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble')]), 'shell': False}
+[5.787886] (-) TimerEvent: {}
+[5.818060] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.888180] (-) TimerEvent: {}
+[5.894925] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.988479] (-) TimerEvent: {}
+[5.993805] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.008155] (my_bot) CommandEnded: {'returncode': 0}
+[6.011545] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[6.064366] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kate/robot_ws/build/my_bot'], 'cwd': '/home/kate/robot_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kate'), ('SSH_CLIENT', '100.75.164.56 64194 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kate'), ('OLDPWD', '/home/kate/robot_ws'), ('TERM_PROGRAM_VERSION', '1.113.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-72428cc8-a6de-4191-978f-cbca0a454da1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/kate/robot_ws/install:/home/kate/ros_workspaces/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kate'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/bin:/usr/local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ba8108ba71.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/kate/robot_ws/install/rplidar_ros:/home/kate/robot_ws/install/my_bot:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kate/robot_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.75.164.56 64194 100.108.229.124 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kate/ros_workspaces/ros2_ws/build/arduino_serial_node:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kate/robot_ws/install/rplidar_ros:/home/kate/robot_ws/install/my_bot:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble')]), 'shell': False}
+[6.088752] (-) TimerEvent: {}
+[6.109769] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.118445] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.123482] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.129118] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/config/ekf.yaml\n'}
+[6.132669] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/config/nav2/map.pgm\n'}
+[6.136091] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/config/nav2/map.yaml\n'}
+[6.141197] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/config/nav2/nav2_params.yaml\n'}
+[6.145963] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/config/slam_params.txt\n'}
+[6.148446] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/config/slam_params.yaml\n'}
+[6.150797] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[6.151563] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[6.154590] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[6.158855] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[6.161490] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[6.162543] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/launch/bringup.launch.py\n'}
+[6.163186] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/launch/bringup.launch.txt\n'}
+[6.163785] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[6.164259] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[6.164941] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/lib/my_bot/zero_odom.py\n'}
+[6.165837] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/lib/my_bot/odom_node.py\n'}
+[6.166376] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/lib/my_bot/arduino_serial.py\n'}
+[6.175014] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/lib/my_bot/imu_parser.py\n'}
+[6.175746] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/lib/my_bot/env_parser.py\n'}
+[6.181154] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/lib/my_bot/drive_bridge.py\n'}
+[6.182472] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/lib/my_bot/static_tf_publisher.py\n'}
+[6.186155] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/lib/my_bot/dual_encoder_node.py\n'}
+[6.189789] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/lib/my_bot/wheel_odom.py\n'}
+[6.190592] (-) TimerEvent: {}
+[6.194231] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/lib/my_bot/arduino_parser.py\n'}
+[6.201331] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[6.205538] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[6.207821] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[6.208771] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[6.212447] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[6.236505] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[6.237404] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[6.238289] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[6.239074] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[6.239675] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[6.240579] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/kate/robot_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[6.260782] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[6.262981] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[6.265005] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[6.265787] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kate/robot_ws/install/my_bot/share/my_bot/package.xml\n'}
+[6.283021] (my_bot) CommandEnded: {'returncode': 0}
+[6.284952] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.290839] (-) TimerEvent: {}
+[6.393746] (-) TimerEvent: {}
+[6.453007] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[6.493969] (-) TimerEvent: {}
+[6.595298] (-) TimerEvent: {}
+[6.697837] (-) TimerEvent: {}
+[6.789094] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.798063] (-) TimerEvent: {}
+[6.827964] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.898333] (-) TimerEvent: {}
+[7.000097] (-) TimerEvent: {}
+[7.103053] (-) TimerEvent: {}
+[7.205841] (-) TimerEvent: {}
+[7.307860] (-) TimerEvent: {}
+[7.410010] (-) TimerEvent: {}
+[7.511735] (-) TimerEvent: {}
+[7.612823] (-) TimerEvent: {}
+[7.664398] (rplidar_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.713079] (-) TimerEvent: {}
+[7.821519] (-) TimerEvent: {}
+[7.925455] (-) TimerEvent: {}
+[8.027481] (rplidar_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.028334] (-) TimerEvent: {}
+[8.131050] (-) TimerEvent: {}
+[8.233363] (-) TimerEvent: {}
+[8.335788] (-) TimerEvent: {}
+[8.438197] (-) TimerEvent: {}
+[8.540381] (-) TimerEvent: {}
+[8.598466] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.640667] (-) TimerEvent: {}
+[8.733880] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.740982] (-) TimerEvent: {}
+[8.843874] (-) TimerEvent: {}
+[8.946159] (-) TimerEvent: {}
+[9.047152] (-) TimerEvent: {}
+[9.148160] (-) TimerEvent: {}
+[9.253777] (-) TimerEvent: {}
+[9.270630] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.274664] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.353962] (-) TimerEvent: {}
+[9.455023] (-) TimerEvent: {}
+[9.556325] (-) TimerEvent: {}
+[9.657439] (-) TimerEvent: {}
+[9.765808] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.766739] (-) TimerEvent: {}
+[9.772748] (rplidar_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.867082] (-) TimerEvent: {}
+[9.968112] (-) TimerEvent: {}
+[10.069131] (-) TimerEvent: {}
+[10.170492] (-) TimerEvent: {}
+[10.219820] (rplidar_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[10.270791] (-) TimerEvent: {}
+[10.372848] (-) TimerEvent: {}
+[10.469601] (rplidar_ros) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[10.477901] (-) TimerEvent: {}
+[10.580754] (-) TimerEvent: {}
+[10.683654] (-) TimerEvent: {}
+[10.785839] (-) TimerEvent: {}
+[10.887005] (-) TimerEvent: {}
+[10.988672] (-) TimerEvent: {}
+[11.080874] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.088981] (-) TimerEvent: {}
+[11.190900] (-) TimerEvent: {}
+[11.225407] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[11.286145] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/kate/robot_ws/build/rplidar_ros\n'}
+[11.291346] (-) TimerEvent: {}
+[11.346536] (rplidar_ros) CommandEnded: {'returncode': 0}
+[11.348593] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[11.348780] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kate/robot_ws/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/kate/robot_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kate'), ('SSH_CLIENT', '100.75.164.56 64194 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kate'), ('OLDPWD', '/home/kate/robot_ws'), ('TERM_PROGRAM_VERSION', '1.113.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-72428cc8-a6de-4191-978f-cbca0a454da1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/kate/robot_ws/install:/home/kate/ros_workspaces/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kate'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/kate/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/bin:/usr/local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ba8108ba71.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/kate/robot_ws/install/rplidar_ros:/home/kate/robot_ws/install/my_bot:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kate/robot_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.75.164.56 64194 100.108.229.124 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kate/ros_workspaces/ros2_ws/build/arduino_serial_node:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kate/robot_ws/install/rplidar_ros:/home/kate/robot_ws/install/my_bot:/home/kate/ros_workspaces/ros2_ws/install/arduino_serial_node:/opt/ros/humble')]), 'shell': False}
+[11.391642] (-) TimerEvent: {}
+[11.493010] (-) TimerEvent: {}
+[11.594272] (-) TimerEvent: {}
+[11.678794] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_node\x1b[0m\n'}
+[11.694437] (-) TimerEvent: {}
+[11.795232] (-) TimerEvent: {}
+[11.896126] (-) TimerEvent: {}
+[11.924876] (rplidar_ros) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[11.996433] (-) TimerEvent: {}
+[12.103072] (-) TimerEvent: {}
+[12.208958] (-) TimerEvent: {}
+[12.311514] (-) TimerEvent: {}
+[12.414636] (-) TimerEvent: {}
+[12.516923] (-) TimerEvent: {}
+[12.619988] (-) TimerEvent: {}
+[12.722175] (-) TimerEvent: {}
+[12.823231] (-) TimerEvent: {}
+[12.924155] (-) TimerEvent: {}
+[13.025019] (-) TimerEvent: {}
+[13.126498] (-) TimerEvent: {}
+[13.228911] (-) TimerEvent: {}
+[13.331495] (-) TimerEvent: {}
+[13.434206] (-) TimerEvent: {}
+[13.536700] (-) TimerEvent: {}
+[13.639867] (-) TimerEvent: {}
+[13.742893] (-) TimerEvent: {}
+[13.843821] (-) TimerEvent: {}
+[13.944883] (-) TimerEvent: {}
+[14.046004] (-) TimerEvent: {}
+[14.146963] (-) TimerEvent: {}
+[14.276131] (-) TimerEvent: {}
+[14.378994] (-) TimerEvent: {}
+[14.480518] (-) TimerEvent: {}
+[14.582837] (-) TimerEvent: {}
+[14.684922] (-) TimerEvent: {}
+[14.788168] (-) TimerEvent: {}
+[14.890448] (-) TimerEvent: {}
+[14.995374] (-) TimerEvent: {}
+[15.097695] (-) TimerEvent: {}
+[15.200026] (-) TimerEvent: {}
+[15.301493] (-) TimerEvent: {}
+[15.402863] (-) TimerEvent: {}
+[15.509977] (-) TimerEvent: {}
+[15.612126] (-) TimerEvent: {}
+[15.714639] (-) TimerEvent: {}
+[15.816769] (-) TimerEvent: {}
+[15.919081] (-) TimerEvent: {}
+[16.020690] (-) TimerEvent: {}
+[16.122628] (-) TimerEvent: {}
+[16.224717] (-) TimerEvent: {}
+[16.327955] (-) TimerEvent: {}
+[16.430324] (-) TimerEvent: {}
+[16.531281] (-) TimerEvent: {}
+[16.632757] (-) TimerEvent: {}
+[16.733958] (-) TimerEvent: {}
+[16.835543] (-) TimerEvent: {}
+[16.936653] (-) TimerEvent: {}
+[17.038241] (-) TimerEvent: {}
+[17.139550] (-) TimerEvent: {}
+[17.242167] (-) TimerEvent: {}
+[17.345293] (-) TimerEvent: {}
+[17.449088] (-) TimerEvent: {}
+[17.551582] (-) TimerEvent: {}
+[17.653832] (-) TimerEvent: {}
+[17.756843] (-) TimerEvent: {}
+[17.859450] (-) TimerEvent: {}
+[17.962404] (-) TimerEvent: {}
+[18.065478] (-) TimerEvent: {}
+[18.168440] (-) TimerEvent: {}
+[18.269249] (-) TimerEvent: {}
+[18.370620] (-) TimerEvent: {}
+[18.480138] (-) TimerEvent: {}
+[18.582860] (-) TimerEvent: {}
+[18.685882] (-) TimerEvent: {}
+[18.789365] (-) TimerEvent: {}
+[18.891978] (-) TimerEvent: {}
+[18.994594] (-) TimerEvent: {}
+[19.096022] (-) TimerEvent: {}
+[19.198389] (-) TimerEvent: {}
+[19.321669] (-) TimerEvent: {}
+[19.424236] (-) TimerEvent: {}
+[19.526706] (-) TimerEvent: {}
+[19.629651] (-) TimerEvent: {}
+[19.732373] (-) TimerEvent: {}
+[19.834902] (-) TimerEvent: {}
+[19.936626] (-) TimerEvent: {}
+[20.038762] (-) TimerEvent: {}
+[20.141600] (-) TimerEvent: {}
+[20.243417] (-) TimerEvent: {}
+[20.345408] (-) TimerEvent: {}
+[20.447442] (-) TimerEvent: {}
+[20.548600] (-) TimerEvent: {}
+[20.651264] (-) TimerEvent: {}
+[20.753731] (-) TimerEvent: {}
+[20.857247] (-) TimerEvent: {}
+[20.958313] (-) TimerEvent: {}
+[21.059808] (-) TimerEvent: {}
+[21.161994] (-) TimerEvent: {}
+[21.264465] (-) TimerEvent: {}
+[21.366679] (-) TimerEvent: {}
+[21.469487] (-) TimerEvent: {}
+[21.571938] (-) TimerEvent: {}
+[21.674486] (-) TimerEvent: {}
+[21.776302] (-) TimerEvent: {}
+[21.877840] (-) TimerEvent: {}
+[21.979947] (-) TimerEvent: {}
+[22.082457] (-) TimerEvent: {}
+[22.185148] (-) TimerEvent: {}
+[22.287947] (-) TimerEvent: {}
+[22.390024] (-) TimerEvent: {}
+[22.493189] (-) TimerEvent: {}
+[22.596197] (-) TimerEvent: {}
+[22.699277] (-) TimerEvent: {}
+[22.801195] (-) TimerEvent: {}
+[22.903633] (-) TimerEvent: {}
+[23.006758] (-) TimerEvent: {}
+[23.109106] (-) TimerEvent: {}
+[23.211694] (-) TimerEvent: {}
+[23.314201] (-) TimerEvent: {}
+[23.416887] (-) TimerEvent: {}
+[23.519196] (-) TimerEvent: {}
+[23.621673] (-) TimerEvent: {}
+[23.724519] (-) TimerEvent: {}
+[23.827526] (-) TimerEvent: {}
+[23.929659] (-) TimerEvent: {}
+[24.031335] (-) TimerEvent: {}
+[24.133359] (-) TimerEvent: {}
+[24.236215] (-) TimerEvent: {}
+[24.341127] (-) TimerEvent: {}
+[24.443860] (-) TimerEvent: {}
+[24.546948] (-) TimerEvent: {}
+[24.648670] (-) TimerEvent: {}
+[24.751376] (-) TimerEvent: {}
+[24.853798] (-) TimerEvent: {}
+[24.956208] (-) TimerEvent: {}
+[25.058192] (-) TimerEvent: {}
+[25.097846] (rplidar_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rplidar_node.dir/build.make:76: CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o] Interrupt\n'}
+[25.099455] (rplidar_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/rplidar_node.dir/all] Interrupt\n'}
+[25.105732] (rplidar_ros) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[25.153830] (rplidar_ros) CommandEnded: {'returncode': -2}
+[25.159309] (-) TimerEvent: {}
+[25.224284] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 'SIGINT'}
+[25.230419] (-) EventReactorShutdown: {}
