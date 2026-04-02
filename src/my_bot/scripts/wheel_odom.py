@@ -13,7 +13,7 @@ class WheelOdom(Node):
 
         # Robot parameters
         self.wheel_radius = 0.0625
-        self.wheel_base   = 0.8
+        self.wheel_base   = 0.08
         self.ticks_per_rev = 3000
 
         # Internal state
