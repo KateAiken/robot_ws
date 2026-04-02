@@ -1,0 +1,1 @@
+/home/kate/robot_ws/src/my_bot/scripts/dual_encoder_node.py

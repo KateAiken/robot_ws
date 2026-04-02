@@ -45,6 +45,8 @@ install(PROGRAMS
     scripts/env_parser.py
     scripts/drive_bridge.py
     scripts/static_tf_publisher.py
+    scripts/dual_encoder_node.py
+    scripts/wheel_odom.py
     DESTINATION lib/${PROJECT_NAME}
     )
 

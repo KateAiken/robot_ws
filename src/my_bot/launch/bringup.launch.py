@@ -58,12 +58,12 @@ def generate_launch_description():
     )
 
     # Odometry node
-    odom_node = Node(
-        package='my_bot',
-        executable='odom_node.py',
-        name='odom_node',
-        output='screen'
-    )
+    # odom_node = Node(
+    #     package='my_bot',
+    #     executable='odom_node.py',
+    #     name='odom_node',
+    #     output='screen'
+    # )
 
     arduino_node = Node(
         package='my_bot',
@@ -203,7 +203,7 @@ def generate_launch_description():
         #static_tf_base_chassis,
         #static_tf_chassis_laser,
         static_tf_node,
-        odom_node,
+        # odom_node,
         arduino_node,
         imu_node,
         env_node,

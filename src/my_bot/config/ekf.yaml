@@ -18,10 +18,10 @@ ekf_filter_node:
                    false, false, false]
     odom0_differential: false
 
-    imu0: /imu/raw
-    imu0_config: [false, false, false,
-                  false, false, false,
-                  false, false, false,
-                  false, false, true,
-                  false, false, false]
-    imu0_differential: false
+    # imu0: /imu/raw
+    # imu0_config: [false, false, false,
+    #               false, false, false,
+    #               false, false, false,
+    #               false, false, true,
+    #               false, false, false]
+    # imu0_differential: false
